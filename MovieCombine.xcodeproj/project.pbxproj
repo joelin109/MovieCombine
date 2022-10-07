@@ -13,7 +13,6 @@
 		CF306C0E28D3DA8200975CCD /* RootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C0D28D3DA8200975CCD /* RootApp.swift */; };
 		CF306C1028D3DA8200975CCD /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C0F28D3DA8200975CCD /* RootView.swift */; };
 		CF306C1228D3DA8400975CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF306C1128D3DA8400975CCD /* Assets.xcassets */; };
-		CF306C1528D3DA8400975CCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF306C1428D3DA8400975CCD /* Preview Assets.xcassets */; };
 		CF306C3428D3DB5C00975CCD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C1D28D3DB5C00975CCD /* RatingView.swift */; };
 		CF306C3528D3DB5C00975CCD /* RankingPercentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C1E28D3DB5C00975CCD /* RankingPercentIndicator.swift */; };
 		CF306C3828D3DB5C00975CCD /* ExImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C2328D3DB5C00975CCD /* ExImage.swift */; };
@@ -51,7 +50,6 @@
 		CF306C0D28D3DA8200975CCD /* RootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootApp.swift; sourceTree = "<group>"; };
 		CF306C0F28D3DA8200975CCD /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		CF306C1128D3DA8400975CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF306C1428D3DA8400975CCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF306C1D28D3DB5C00975CCD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		CF306C1E28D3DB5C00975CCD /* RankingPercentIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingPercentIndicator.swift; sourceTree = "<group>"; };
 		CF306C2328D3DB5C00975CCD /* ExImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExImage.swift; sourceTree = "<group>"; };
@@ -138,17 +136,8 @@
 				CF306C0D28D3DA8200975CCD /* RootApp.swift */,
 				CF306C0F28D3DA8200975CCD /* RootView.swift */,
 				CF306C1128D3DA8400975CCD /* Assets.xcassets */,
-				CF306C1328D3DA8400975CCD /* Preview Content */,
 			);
 			path = MovieCombine;
-			sourceTree = "<group>";
-		};
-		CF306C1328D3DA8400975CCD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CF306C1428D3DA8400975CCD /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CF306C1B28D3DB5C00975CCD /* View */ = {
@@ -318,7 +307,6 @@
 			files = (
 				CF306C7C28D6346800975CCD /* MockData-Fav.json in Resources */,
 				CF306C5B28D3E00700975CCD /* MockData.json in Resources */,
-				CF306C1528D3DA8400975CCD /* Preview Assets.xcassets in Resources */,
 				CF306C1228D3DA8400975CCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
