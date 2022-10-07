@@ -14,6 +14,8 @@ Xcode - Preferences… - Accounts
 add Github account 
 input [account name] & [token] to sign in your GitHub account
 
+//Token:
+Set repo for Full control of private repositories
 ```
 
 <br>
