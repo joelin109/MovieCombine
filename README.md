@@ -7,6 +7,7 @@ SwiftUI + Combine + Alamofire
 <br>
 <br>
 <br>
+<br>
 
 #### Add Github account in Xcode
 
@@ -27,5 +28,5 @@ Set repo for Full control of private repositories
 
 ```bash
 Xcode - Source Control -
-Clone… - MovieCombine
+Clone… - MovieCombine 
 ```
