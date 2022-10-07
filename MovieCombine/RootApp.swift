@@ -11,7 +11,27 @@ import SwiftUI
 struct MovieCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            MainView()
         }
+    }
+}
+
+
+struct MainView: View {
+    var body: some View {
+        MovieHomePage()
+//        TabView {
+//            MovieHomePage()
+//                .tabItem {
+//                    Image(systemName: "film")
+//                    Text("Movies")
+//                }.tag(0)
+//        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
     }
 }

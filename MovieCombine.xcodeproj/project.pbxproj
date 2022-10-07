@@ -12,7 +12,6 @@
 		C848818328E4C50D009A61F7 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848818228E4C50D009A61F7 /* MenuList.swift */; };
 		C8ACB25028F0B52B00486F75 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = C8ACB24F28F0B52B00486F75 /* Preview Content */; };
 		CF306C0E28D3DA8200975CCD /* RootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C0D28D3DA8200975CCD /* RootApp.swift */; };
-		CF306C1028D3DA8200975CCD /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C0F28D3DA8200975CCD /* RootView.swift */; };
 		CF306C1228D3DA8400975CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF306C1128D3DA8400975CCD /* Assets.xcassets */; };
 		CF306C3428D3DB5C00975CCD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C1D28D3DB5C00975CCD /* RatingView.swift */; };
 		CF306C3528D3DB5C00975CCD /* RankingPercentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF306C1E28D3DB5C00975CCD /* RankingPercentIndicator.swift */; };
@@ -50,7 +49,6 @@
 		C8ACB24F28F0B52B00486F75 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		CF306C0A28D3DA8200975CCD /* MovieCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF306C0D28D3DA8200975CCD /* RootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootApp.swift; sourceTree = "<group>"; };
-		CF306C0F28D3DA8200975CCD /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		CF306C1128D3DA8400975CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF306C1D28D3DB5C00975CCD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		CF306C1E28D3DB5C00975CCD /* RankingPercentIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingPercentIndicator.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				CF306C4628D3DB8600975CCD /* Http */,
 				CF306C2B28D3DB5C00975CCD /* Service */,
 				CF306C0D28D3DA8200975CCD /* RootApp.swift */,
-				CF306C0F28D3DA8200975CCD /* RootView.swift */,
 				CF306C1128D3DA8400975CCD /* Assets.xcassets */,
 				C8ACB24F28F0B52B00486F75 /* Preview Content */,
 			);
@@ -331,7 +328,6 @@
 				CF306C3F28D3DB5C00975CCD /* MovieService.swift in Sources */,
 				CF306C5728D3DB8600975CCD /* Video.swift in Sources */,
 				CF306C5228D3DB8600975CCD /* HttpURL.swift in Sources */,
-				CF306C1028D3DA8200975CCD /* RootView.swift in Sources */,
 				CF8D4C0328E7A7AA009790FE /* MovieCastListView.swift in Sources */,
 				CF306C4428D3DB5C00975CCD /* MovieDetailHeaderVM.swift in Sources */,
 				CF306C3A28D3DB5C00975CCD /* MovieCellView.swift in Sources */,
