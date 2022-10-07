@@ -39,28 +39,34 @@ struct ExImageLoader: View {
     init(imageUrl: String) {
         self.imageUrl = imageUrl
     }
+   
     
     var body: some View {
         GeometryReader { reader in
             ZStack {
+                
                 AsyncImage(url: URL(string: self.imageUrl)) { image in
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
+                        .frame(width: reader.size.width, height: reader.size.height)
                     
                 } placeholder: {
                     Rectangle().foregroundColor(.white)
                     
-                   
+                    VStack(alignment: .center) {
                         Image(systemName: "person.fill")
                             .font(.system(size: 40))
                             .foregroundColor(Color.exGrau)
-                          
-                 
+                        
+                        Spacer()
+                    }
+                    
                 }
-                .frame(width: reader.size.width)
+                
             }
-            
         }
     }
+    
+    
 }
