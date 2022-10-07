@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ImageLoaderViewModel.init(imagePath:):ImageLoader.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #2 in MoviesSectionViewModel.fetchMovies(page:):MovieViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImageFetcherService.fetch(imagePath:size:):ImageFetcherService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in MovieViewModel.fetchMovies(page:):MovieViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fetchedMovies">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
