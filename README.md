@@ -28,5 +28,5 @@ Set repo for Full control of private repositories
 
 ```bash
 Xcode - Source Control -
-Clone… - MovieCombine5
+Clone… - MovieCombine
 ```
